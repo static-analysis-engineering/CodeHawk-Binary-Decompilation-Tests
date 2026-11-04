@@ -1,4 +1,4 @@
-echo "Produce PIR file for functions listed"
+echo "Test Description: Produce PIR file for functions listed"
 source ./vars.sh
 mkdir -p logs
 
