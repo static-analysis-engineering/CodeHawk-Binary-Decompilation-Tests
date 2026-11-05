@@ -1,4 +1,4 @@
-echo "Test Description: Produce PIR file for functions listed"
+echo "Test Description: Collect errors for known failing functions"
 source ./vars.sh
 mkdir -p logs
 
