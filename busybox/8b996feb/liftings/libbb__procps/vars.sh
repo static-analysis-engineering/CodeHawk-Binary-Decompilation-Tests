@@ -7,3 +7,6 @@ export FNS_PENDING_TYPING="0x54d78 0x54dfc 0x556b0"
 export FNS_PENDING_ERRORS="0x54e44 0x54f6c 0x55244"
 export HEADERS="fileheader.c"
 export USERDATA="../../shareddata/userdata.json userdata.json"
+# This test includes features that our patcher does not currently support. As such
+# additional tests not included here that rely on the patcher are expected to fail.
+export EXTRA_TESTS_FAIL=1
